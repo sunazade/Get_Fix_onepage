@@ -1,0 +1,278 @@
+            @media(max-width: 1200px) {
+                .center {
+                    width: 98%;
+                }
+                .services_section .center {
+                    width: 1000px;
+                }
+                .offers_list li:not(:last-child) {
+                    margin-right: 20px;
+                }
+            }
+            
+            @media(max-width: 1000px) {
+                .logo {
+                    margin-top: -15px;
+                }
+                .logo img {
+                    width: 150px;
+                }
+                .header_top_adr {
+                    margin-left: 0;
+                }
+                .header_top_menu li:not(:last-child),
+                .search_tag_list li:not(:last-child) {
+                    margin-right: 15px;
+                }
+                .header_top_menu {
+                    margin-left: 22px;
+                }
+                .header_bottom {
+                    max-height: 52px;
+                    padding: 10px 0;
+                }
+                .header_bottom_menu li a,
+                .header_bottom_menu li:not(:last-child):after {
+                    font-size: 9px;
+                }
+                .slider_list li img {
+                    width: 434px;
+                    height: 400px;
+                }
+                .slider_left_side h3 {
+                    font-size: 28px;
+                }
+                .slider_hashtag {
+                    font-size: 26px;
+                }
+                .services_section .center {
+                    width: 800px;
+                }
+                .best_offers_in h3 {
+                    font-size: 26px;
+                }
+                .best_offers_in p {
+                    font-size: 20px;
+                }
+            }
+            
+            @media(max-width: 800px) {
+                .header_top_2 {
+                    flex-wrap: wrap;
+                }
+                .login_register {
+                    width: 140px;
+                    justify-content: flex-end;
+                }
+                .header_top_3 {
+                    margin-top: 15px;
+                }
+                .book_now_btn {
+                    margin-left: 12px;
+                    padding: 10px 23px;
+                    font-size: 18px;
+                }
+                .logo {
+                    margin-top: -10px;
+                }
+                .logo img {
+                    width: 120px;
+                }
+                .header_top_adr {
+                    display: none;
+                }
+                .header_bottom {
+                    display: none;
+                }
+                .slider_list li img {
+                    width: 350px;
+                    height: 330px;
+                }
+                .slider_left_side h3 {
+                    font-size: 22px;
+                }
+                .slider_hashtag {
+                    font-size: 20px;
+                }
+                .slider_btn {
+                    font-size: 20px;
+                }
+                .slider_list li {
+                    height: calc(556px - 120px);
+                }
+                .slick-dots li {
+                    width: 15px;
+                    height: 15px;
+                    transition: all 0.5s;
+                }
+                .services_section_in {
+                    width: 100%;
+                    padding: 18px 0;
+                    border-radius: 0;
+                    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+                    background-color: #ffffff;
+                }
+                .services_section_in h3 {
+                    font-size: 24px;
+                }
+                .services_section .center {
+                    width: 100%;
+                }
+                .best_offers_in h3 {
+                    font-size: 24px;
+                }
+                .best_offers_in p {
+                    font-size: 17px;
+                }
+            }
+            
+            @media(max-width: 650px) {
+                .header_top {
+                    min-height: unset;
+                    padding: 8px 0;
+                }
+                .header_top_tels,
+                .header_top_2 nav,
+                .login_register,
+                .header_bottom {
+                    display: none;
+                }
+                .logo {
+                    margin-top: 0;
+                }
+                .h_search_form {
+                    margin-left: 0;
+                }
+                .header_top_2 {
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-top: 0;
+                }
+                .open_mobile_menu {
+                    display: block;
+                }
+                .search_tag_list_box {
+                    width: 98vw;
+                }
+                /* .best_offers_box {
+                    width: 98vw;
+                    overflow-x: scroll;
+                } */
+                .slider_list li img {
+                    width: 260px;
+                    height: 237px;
+                }
+                .slider_left_side h3 {
+                    font-size: 16px;
+                }
+                .slider_hashtag {
+                    font-size: 16px;
+                }
+                .slider_btn {
+                    font-size: 12px;
+                }
+                .slider_btn {
+                    margin-top: 40px;
+                    padding: 6px 24px;
+                    border-radius: 6px;
+                }
+                .slider_list li {
+                    height: calc(465px - 120px);
+                }
+                .slick-dots li {
+                    width: 10px;
+                    height: 10px;
+                    transition: all 0.5s;
+                }
+                .services_section_in h3 {
+                    font-size: 20px;
+                }
+                .service_list li:not(:last-child) {
+                    margin-right: 30px;
+                }
+                .service_list {
+                    width: 98vw;
+                    overflow-x: scroll;
+                }
+                .offers_list {
+                    width: 98vw !important;
+                    overflow-x: scroll;
+                }
+                .best_offers_in h3 {
+                    font-size: 20px;
+                }
+                .best_offers_in p {
+                    font-size: 15px;
+                }
+                .best_offers_in ul li h3 {
+                    font-size: 13px;
+                }
+                .best_offers_in ul li p {
+                    font-size: 11px;
+                }
+                .best_offers {
+                    margin-top: 40px;
+                    padding-bottom: 40px;
+                }
+            }
+            
+            @media(max-width: 500px) {
+                .h_search_input {
+                    height: 40px;
+                    border-radius: 8px;
+                    max-width: calc(100% - 120px);
+                }
+                .book_now_btn {
+                    margin-left: 10px;
+                    padding: 0 16px;
+                    font-size: 16px;
+                    height: 40px;
+                    border-radius: 8px;
+                }
+                .header_top_3 {
+                    margin-top: 10px;
+                }
+                .slider_list li img {
+                    width: 180px;
+                    height: 160px;
+                }
+                .slider_left_side h3 {
+                    font-size: 10px;
+                }
+                .slider_hashtag {
+                    font-size: 10px;
+                }
+                .slider_btn {
+                    font-size: 10px;
+                }
+                .slider_list li {
+                    height: calc(344px - 120px);
+                }
+                .slick-dots li {
+                    width: 5px;
+                    height: 5px;
+                    transition: all 0.5s;
+                }
+                .services_section_in h3 {
+                    font-size: 15px;
+                }
+                .best_offers_in p {
+                    font-size: 13px;
+                }
+                .best_offers {
+                    margin-top: 30px;
+                    padding-bottom: 30px;
+                }
+                .best_offers_in h3 {
+                    font-size: 16px;
+                }
+                .best_offers_in p {
+                    font-size: 10px;
+                }
+                .best_offers_in ul li h3 {
+                    font-size: 11px;
+                }
+                .best_offers_in ul li p {
+                    font-size: 8px;
+                }
+            }
